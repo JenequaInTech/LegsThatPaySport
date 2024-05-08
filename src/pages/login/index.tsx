@@ -1,11 +1,10 @@
 import * as React from 'react';
 
-interface IloginProps {}
+interface ILoginProps {
+}
 
-const login: React.FunctionComponent<IloginProps> = (props) => {
-  return <div>login</div>;
+const Login: React.FunctionComponent<ILoginProps> = (props) => {
+  return <div>Login</div>
 };
 
-export default login;
-
-
+export default Login;

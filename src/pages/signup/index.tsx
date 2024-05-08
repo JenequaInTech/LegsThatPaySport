@@ -1,12 +1,11 @@
 import * as React from 'react';
 
-interface IsignupProps {}
+interface ISignupProps {
+}
 
-const signup: React.FunctionComponent<IsignupProps> = (props) => {
-  return <div>signup</div>;
+const Signup: React.FunctionComponent<ISignupProps> = (props) => {
+  return <div>Signup</div>
 };
 
-export default signup;
-
-
+export default Signup;
 

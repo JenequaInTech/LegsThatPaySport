@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-interface IlegpicsProps {}
+interface ILegpicsProps {
+}
 
-const legpics: React.FunctionComponent<IlegpicsProps> = (props) => {
-  return <div>legpics</div>;
+const Legpics: React.FunctionComponent<ILegpicsProps> = (props) => {
+  return <div>Legpics</div>
 };
 
-export default legpics;ws
-
+export default Legpics;

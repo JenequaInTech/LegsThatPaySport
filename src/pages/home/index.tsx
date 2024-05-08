@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-interface IhomeProps {}
+interface IHomeProps {}
 
-const home: React.FunctionComponent<IhomeProps> = (props) => {
-  return <div>home</div>;
+const Home: React.FunctionComponent<IHomeProps> = (props) => {
+  return <div>Home</div>
 };
 
-export default home;
+export default Home;

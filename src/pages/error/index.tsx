@@ -1,9 +1,10 @@
 import * as React from 'react';
 
-interface IerrorProps {}
+interface IErrorProps {
+}
 
-const error: React.FunctionComponent<IerrorProps> = (props) => {
-  return <div>error</div>;
+const Error: React.FunctionComponent<IErrorProps> = (props) => {
+  return <div>Error</div>   
 };
 
-export default error;
+export default Error;

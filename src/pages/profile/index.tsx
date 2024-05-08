@@ -1,9 +1,10 @@
 import * as React from 'react';
 
-interface IprofileProps {}
+interface IProfileProps {
+}
 
-const profile: React.FunctionComponent<IprofileProps> = (props) => {
-  return <div>profile</div>;
+const Profile: React.FunctionComponent<IProfileProps> = (props) => {
+  return <div>Profile</div>
 };
 
-export default profile;
+export default Profile;
